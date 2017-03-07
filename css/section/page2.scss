@@ -1,0 +1,38 @@
+/*------------------#SECTION-PAGE2----------------------*/
+
+.page2 {
+  background: url(/images/fon.jpg) no-repeat;
+  background-size: cover;
+  color: #EEEEEE;
+  &__title {
+    font-size: 29px;
+    line-height: 1.5em;
+    &_300{
+      font-weight: 300;
+
+    }
+  }
+
+  &__item {
+    margin: 20px 0;
+
+    &_orange {
+      color: #ff6131;
+      font-weight: 400;
+      font-size: 23px;
+    }
+  }
+
+  &__item-title {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 21px;
+    color: #DDDDDD;
+  }
+
+  &__item-desc {
+    font-weight: 300;
+    font-size: 17px;
+    color: #bbbbbb;
+  }
+}

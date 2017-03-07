@@ -7,6 +7,7 @@
  */
 /* Document
    ========================================================================== */
+@import "http://webfonts.ru/import/opensans.css";
 html {
   font-family: sans-serif;
   /* 1 */
@@ -456,7 +457,7 @@ body, html {
   width: 100%;
   line-height: 1.42;
   -webkit-font-smoothing: antialiased;
-  font: 1em/1.6em sans-serif;
+  font: 1em/1.6em 'Open Sans', sans-serif;
   color: #353535;
   background: #ccc;
 }
@@ -493,14 +494,28 @@ a {
   clear: both;
 }
 
-.content {
-  padding-bottom: 50px;
+/*
+	Open Sans, 300, 300 italic, 400, 400 italic, 600, 600 italic, 700, 700 italic, 800, 800 italic
+*/
+/*------------------#SECTION-SECTION----------------------*/
+.left {
+  float: left;
 }
 
-.section {
-  text-align: center;
+.page__left {
+  width: 45%;
 }
 
+.right {
+  float: right;
+}
+
+.page__right {
+  width: 50%;
+  margin-right: 5%;
+}
+
+/*------------------#SECTION-MENU----------------------*/
 #mainMenu {
   position: fixed;
   z-index: 999;
@@ -527,6 +542,84 @@ a {
   border-radius: 3px;
   box-shadow: 1px 1px 3px #444;
   transition: all .3s;
+}
+
+.menu__link:hover {
+  background: rgba(0, 0, 0, 0.52);
+  color: #fff;
+}
+
+/*------------------#SECTION-PAGE1----------------------*/
+.page1 {
+  background: url(/images/fon3.jpg) no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.page1__content {
+  background: rgba(0, 0, 0, 0.67);
+  color: #ffffff;
+  padding: 60px 0;
+}
+
+.page1__desc1 {
+  font-size: 39px;
+  margin: 0 0 20px;
+}
+
+.page1__desc2 {
+  font-size: 32px;
+  margin: 0 0 60px;
+}
+
+.page1__desc1, .page1__desc2 {
+  color: #61C2FF;
+  text-shadow: 1px 1px 2px #111;
+  line-height: 1em;
+}
+
+.page1__desc3 {
+  color: #B7B7B7;
+  font-size: 21px;
+}
+
+/*------------------#SECTION-PAGE2----------------------*/
+.page2 {
+  background: url(/images/fon.jpg) no-repeat;
+  background-size: cover;
+  color: #EEEEEE;
+}
+
+.page2__title {
+  font-size: 29px;
+  line-height: 1.5em;
+}
+
+.page2__title_300 {
+  font-weight: 300;
+}
+
+.page2__item {
+  margin: 20px 0;
+}
+
+.page2__item_orange {
+  color: #ff6131;
+  font-weight: 400;
+  font-size: 23px;
+}
+
+.page2__item-title {
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 21px;
+  color: #DDDDDD;
+}
+
+.page2__item-desc {
+  font-weight: 300;
+  font-size: 17px;
+  color: #bbbbbb;
 }
 
 /*# sourceMappingURL=main.css.map */
