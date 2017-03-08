@@ -1,0 +1,39 @@
+/*------------------#SECTION-PAGE5----------------------*/
+
+.page5 {
+  background-color: #f7f7f7;
+  text-align: center;
+  &__title {
+    font-size: 33px;
+    margin-bottom: 10px;
+  }
+
+  &__desc {
+    font-size: 27px;
+    font-weight: bold;
+  }
+
+  &__button {
+    margin: 20px;
+    margin-bottom: 30px;
+
+  }
+
+  &__link {
+    color: #fff;
+    font-size: 27px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #8b2008;
+    background: #c4310e;
+    border-radius: 3px;
+    padding: 30px 40px;
+    display: inline-block;
+    box-shadow: 1px 1px 3px #aaa;
+    transition: all .4s;
+
+    &:hover {
+      background-color: #2f749a;
+      text-shadow: 1px 1px 1px #1f4a62;
+    }
+  }
+}
