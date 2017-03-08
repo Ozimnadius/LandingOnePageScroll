@@ -1,0 +1,31 @@
+/*------------------#SECTION-PAGE4----------------------*/
+
+.page4 {
+  &__title {
+    margin-bottom: 25px;
+  }
+}
+
+.page4-slide1 {
+  background-color: #FFDE44;
+}
+
+.page4-slide2 {
+  background-color: #A3F8FF;
+}
+
+.page4-slide3 {
+  background-color: #FFC079;
+}
+
+.page4-slide4 {
+  background-color: #E9FF79;
+}
+
+.page4-slide1 {
+  text-align: center;
+  .page4__desc {
+    font-size: 27px;
+    font-weight: 300;
+  }
+}
