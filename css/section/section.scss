@@ -15,4 +15,24 @@
 .page__right {
   width: 50%;
   margin-right: 5%;
+  text-align: left;
+}
+
+.title {
+  font-size: 29px;
+  line-height: 1.5em;
+  text-transform: uppercase;
+  //color: #000;
+}
+
+.title_400 {
+  font-weight: 400;
+}
+
+.title_300 {
+  font-weight: 300;
+}
+
+.title_blue {
+  color: #016FAF;
 }

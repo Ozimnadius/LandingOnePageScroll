@@ -1,0 +1,17 @@
+/*------------------#SECTION-PAGE3----------------------*/
+
+
+
+.page3 {
+  background: url(/images/halftone.png) center;
+  color: #444;
+  &__title {
+    margin-bottom: 25px;
+    &:hover, &:hover .title_blue {
+      color: #D00000;
+      cursor: pointer;
+    }
+  }
+
+}
+

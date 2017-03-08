@@ -3,30 +3,44 @@
 .page2 {
   background: url(/images/fon.jpg) no-repeat;
   background-size: cover;
-  color: #EEEEEE;
-  &__title {
-    font-size: 29px;
-    line-height: 1.5em;
-    &_300{
-      font-weight: 300;
+  color: #eee;
+  text-shadow: 1px 1px 2px #111;
+  font-size: 0;
 
-    }
+  &__title {
+    color: #eee;
   }
 
   &__item {
     margin: 20px 0;
 
     &_orange {
-      color: #ff6131;
       font-weight: 400;
       font-size: 23px;
+      color: #ff6131;
     }
+  }
+
+
+  &__item-disc {
+    width: 5%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5%;
+    color: #ff6131;
+    font-size: 35px;
+  }
+
+  &__item-content {
+    display: inline-block;
+    vertical-align: middle;
+    width: 90%;
   }
 
   &__item-title {
     font-weight: 300;
     font-size: 21px;
-    line-height: 21px;
+    line-height: 1em;
     color: #DDDDDD;
   }
 
